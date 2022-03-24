@@ -41,6 +41,8 @@ public class ActivityRetrofit extends AppCompatActivity {
         btnTodo = (Button) findViewById(R.id.btnTodoJsonVolley);
         setListRe();
 
+        obtenerLosUsuarios();
+
     }
 
 

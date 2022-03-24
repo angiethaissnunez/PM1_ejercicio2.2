@@ -44,6 +44,8 @@ public class ActivityJsonVolley extends AppCompatActivity {
         btnTodo = (Button) findViewById(R.id.btnTodoJsonVolley);
         setListV();
 
+        GETUsers();
+
 
     }
 
